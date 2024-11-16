@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libsvm (3)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DPGP-AML/src/java_SVM/libsvm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
