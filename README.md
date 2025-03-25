@@ -1,5 +1,5 @@
 # ([OAEI](https://oaei.ontologymatching.org/)'s Conference and Anatomy Datasets) readme
-The document provides the compiled .class files of the source code, test datasets for conference and anatomy, a library package for ontology parsing and matching, the compiled similarity matrix, and the WordNet tool.
+The document provides the source code and its compiled .class files, test datasets for conference and anatomy, a library package for ontology parsing and matching, the compiled similarity matrix, and the WordNet tool.
 ## 1.Environment Configuration
 This project is running on IntelliJ IDEA, with the SDK version set to Oracle OpenJDK version 17, and the SDK language configured as SDK default (17).
 ## 2.Parameter configuration
@@ -21,7 +21,7 @@ The addresses that need to be modified and configured for this project include:
 (10) The **main package** contains the main function, defining the overall framework of DPGP-AML and serving as the entry point of the program. It also provides the property method used for matching the ontology's properties. 
 
 # ([OAEI](https://oaei.ontologymatching.org/)'s Large Biomed Dataset) readme  
-The document provides the compiled .class files of the source code, test datasets for large biomedic, a library package for ontology parsing and matching, and the WordNet tool. Due to the similarity matrix file being too large, exceeding GitHub's transfer limits, it has not been included in this document.
+The document provides the source code and its compiled .class files, test datasets for large biomedic, a library package for ontology parsing and matching, and the WordNet tool. Due to the similarity matrix file being too large, exceeding GitHub's transfer limits, it has not been included in this document.
 ## 1.Environment Configuration
 This project is running on IntelliJ IDEA, with the SDK version set to Oracle OpenJDK version 17, and the SDK language configured as SDK default (17).
 ## 2.Parameter configuration
