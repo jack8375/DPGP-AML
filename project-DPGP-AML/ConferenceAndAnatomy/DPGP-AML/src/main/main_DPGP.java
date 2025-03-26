@@ -42,8 +42,8 @@ public class main_DPGP {
         int maxDeep = 3;  //GP树最大深度
         int populationSize = 50;  //种群规模
         int maxiGen = 2000;  //迭代次数
-        double crossoverProbability = 1;  //交叉概率
-        double mutationProbability = 1;  //变异概率
+        double crossoverProbability = 0.8;  //交叉概率
+        double mutationProbability = 0.1;  //变异概率
         double anchorSize = 0.9;  //锚点待选集合规模
         int selectionSize1 = 6;  //交叉：轮盘赌选择子种群规模
         int selectionSize2 = populationSize;  //变异：选择种群规模
@@ -58,7 +58,7 @@ public class main_DPGP {
         double st = 0.01;  //CGA的优化步长
         double threshold = 0.7;  //QMS：用于获取具有高SF值的可能正确的映射的阈值
         int thresholdForPopulationDivergenceEnhancement = 50;  //激活种群多样性增强的阈值
-        int thresholdForExpertInvolvement = 2000;  //激活专家介入的阈值
+        int thresholdForExpertInvolvement = 70;  //激活专家介入的阈值
         //decode：阈值过滤
         String path="D:\\文件\\收敛实验\\edas-sigkdd-DPGP.xlsx";
         double allT=0;
