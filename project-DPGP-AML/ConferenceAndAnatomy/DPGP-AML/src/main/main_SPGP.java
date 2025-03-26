@@ -68,7 +68,6 @@ public class main_SPGP {
                 List<String> propertyMappings = new ArrayList<>();
 
 
-                //一轮排除：通过局部一致性原则(LCP)，排除子父类关系矛盾的匹配对
                 for (int m = 0; m < alignment.size(); m++) {
                     String[] strs = splitString1(alignment.get(m));
                     if (WaysOfSimilarity.SMOASimilarity(strs[0], strs[1]) == 1) {
@@ -146,7 +145,6 @@ public class main_SPGP {
                     }
                 }
 
-                //二轮排除：通过子父类概念是否相似，排除高相似度但不具备匹配关系的实体
                 for (int m = 0; m < alignment.size(); m++) {
                     String[] strs = splitString1(alignment.get(m));
                     if (WaysOfSimilarity.SMOASimilarity(strs[0], strs[1]) != 1) {
